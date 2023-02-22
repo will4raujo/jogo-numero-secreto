@@ -43,7 +43,6 @@ function verificaSeOChutePossuiValorValido(chute) {
 
 }
 
-
 function chuteForInvalido(numero) {
     return Number.isNaN(numero);
 }
