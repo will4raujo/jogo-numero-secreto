@@ -28,7 +28,7 @@ function verificaSeOChutePossuiValorValido(chute) {
         <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
         `
     }
-    
+
     else if (numero > numeroSecreto) {
         elementoChute.innerHTML += `<div>O número secreto é menor <i class="fa-solid fa-arrow-down"></i></div>`
     }
