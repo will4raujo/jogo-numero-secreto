@@ -15,7 +15,7 @@ function verificaSeOChutePossuiValorValido(chute) {
 
         elementoChute.innerHTML += '<div>Valor inválido</div>';
     }
-    
+
     if (numeroForMaiorOuMenorQueOVlaorPermitido(numero)) {
         elementoChute.innerHTML += `<div>valor inválido: o número secreto precisa estar entre ${menorValor} e ${maiorValor}</div>`;
     }
@@ -38,6 +38,7 @@ function verificaSeOChutePossuiValorValido(chute) {
     }
 
 }
+
 
 function chuteForInvalido(numero) {
     return Number.isNaN(numero);
